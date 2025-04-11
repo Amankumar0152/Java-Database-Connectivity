@@ -9,7 +9,7 @@ public class Demo {
 
         String url = "jdbc:postgresql://127.0.0.1:5432/product";
         String username = "postgres";
-        String password = "0000";
+        String password = "0000.01";
         Connection con = DriverManager.getConnection(url, username, password);
         Statement st = con.createStatement();
         ResultSet rs = st.executeQuery(sql);
